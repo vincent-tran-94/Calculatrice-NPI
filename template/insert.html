@@ -1,0 +1,13 @@
+<html>
+   <body>
+      <h2><a href = "\"> Revenir à la page d'accueil</a></h2>
+      <form action = "{{ url_for('add_operations') }}" method = "POST">
+         <h3> Comment écrire en Notation Polonaise Inverse (NPI) ?  <br></h3>
+         </p> La notation NPI demande d'écrire les opérandes en premier et l'ordre dans lequel sont réalisées les opérations. 
+            Exemple : a * (b + c) s'écrit a b c + * <br> </p>
+            Ecrivez votre expression NPI: <br>
+         <input type = "text" name = "expression" /></br>
+         <input type = "submit" value = "submit" /><br>
+      </form>
+   </body>
+</html>
