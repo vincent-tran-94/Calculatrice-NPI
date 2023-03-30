@@ -17,7 +17,7 @@ Sur le fichier main.py on retrouve un script main.py qui permettra de lancer Fla
 
 Voici les différents connexions existants: 
 
-Page d'accueil: http://localhost:5000/
-Page à l'affichage des données du calculateur: http://localhost:5000/list 
-Page pour insérer les opérations du calculateur: http://127.0.0.1:5000/insert
-Téléchargement du fichier CSV: http://127.0.0.1:5000/export_csv
+Page d'accueil: http://localhost:5000/ <br> 
+Page à l'affichage des données du calculateur: http://localhost:5000/list  <br>
+Page pour insérer les opérations du calculateur: http://127.0.0.1:5000/insert <br>
+Téléchargement du fichier CSV: http://127.0.0.1:5000/export_csv <br>
