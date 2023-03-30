@@ -15,7 +15,9 @@ Pour créer une calculatrice en NPI sur Python on doit :
 
 Sur le fichier main.py on retrouve un script main.py qui permettra de lancer Flask API 
 
-MISE EN TEST sur CURL 
-curl -X POST -H "Content-Type: application/json" -d '{"expression": "2 3 + 5 *"}' http://localhost:5000/evaluate
-curl http://localhost:5000/api/affichage
-curl -X GET http://localhost:5000/export_csv
+Voici les différents connexions existants: 
+
+Page d'accueil: http://localhost:5000/
+Page à l'affichage des données du calculateur: http://localhost:5000/list 
+Page pour insérer les opérations du calculateur: http://127.0.0.1:5000/insert
+Téléchargement du fichier CSV: http://127.0.0.1:5000/export_csv
