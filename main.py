@@ -96,6 +96,6 @@ def export_csv():
 
     return send_file('operations.csv')
 
-#Lancement de l'application web
+#Lancement de l'application Flask
 if __name__ == '__main__':
     app.run(debug= True)
