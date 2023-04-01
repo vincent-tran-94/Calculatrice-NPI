@@ -33,6 +33,4 @@ def calculatrice_NPI(expression):
                 pile.append(x / y)
             elif element == "%":
                 pile.append(x % y)
-            elif element == "**":
-                pile.append(x ** y)
     return pile[0]
