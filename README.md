@@ -1,5 +1,4 @@
 # Algorithme Calculatrice-NPI sur Python avec Flask 
-#	changement
 
 La notation polonaise inverse (NPI) est une méthode pour représenter les expressions mathématiques 
 de manière à ce que l'opérateur suit ses opérandes
