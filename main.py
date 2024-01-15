@@ -25,7 +25,7 @@ def evaluate():
     conn.commit() 
     return {'result': result}
 
-#Affichage de la base de données calculateur avec l'API REST 
+#Affichage de la base de données calculateur avec l'API 
 @app.route('/api/affichage')
 def affichage():
     conn = sqlite3.connect('calculateur.db')
