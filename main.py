@@ -8,7 +8,6 @@ MISE EN TEST sur CURL
 curl -X POST -H "Content-Type: application/json" -d '{"expression": "2 3 + 5 *"}' http://localhost:5000/evaluate
 curl http://localhost:5000/api/affichage
 curl -X GET http://localhost:5000/export_csv
-o
 """
 
 #Création de l'application Flask 
