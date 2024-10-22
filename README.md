@@ -19,5 +19,5 @@ Voici les différents connexions existants:
 
 Page d'accueil: http://localhost:5000/ <br> 
 Page à l'affichage des données du calculateur: http://localhost:5000/list  <br>
-Page pour insérer les opérations du calculateur: http://127.0.0.1:5000/insert <br>
-Téléchargement du fichier CSV: http://127.0.0.1:5000/export_csv <br>
+Page pour insérer les opérations du calculateur: http://localhost:5000/insert <br>
+Téléchargement du fichier CSV: http://localhost:5000/export_csv <br>
